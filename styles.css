@@ -144,7 +144,7 @@ div.windows{
     top: 45px;
     left: 10pc;
     border-radius: 10px;
-    display: block;
+    display: none;
     align-items: center;
 }
 
