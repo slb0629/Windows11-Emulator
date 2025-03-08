@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows 11</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="whole">
+        <!-- desktop part -->
+        <div class="apps app-bin">
+            <div class="bin icon"></div>
+            <div class="name">
+                Recycle Bin
+            </div>
+        </div>
+        <div class="apps app-file">
+            <div class="file icon"></div>
+            <div class="name">
+                Windows Explorer
+            </div>
+        </div>
+        <div class="apps app-edge">
+            <div class="edge icon"></div>
+            <div class="name">
+                Microsoft Edge
+            </div>
+        </div>
+
+        <!-- windows pop-up -->
+        <div class="pop">
+                <div class="pop-search"></div>
+                <div class="app-widget"></div>
+                <div class="log-info"></div>
+         </div>
+
+        <!-- edge -->
+         <div id="edge">
+            <!-- tab part -->
+            <div id="top-part">
+                <div id="tabs"></div>
+                <div id="right-part">
+                    <div id="down" class="a4">
+                        <div class="a3 down-img"></div>
+                    </div>
+                    <div id="maximize" class="a4">
+                        <div class="a3 max-img"></div>
+                    </div>
+                    <div id="close" class="a5">
+                        <div class="a3 close-img"></div>
+                    </div>
+                </div>
+                <!-- search part -->
+                <div id="search-part">
+                    <div class="a1 left">
+                        <div class="a2 left-img"></div>
+                    </div>
+                    <div class="a1 refresh">
+                        <div class="a2 refresh-img"></div>
+                    </div>
+                    <input type="text" id="browser-search" placeholder="Search or enter website URL">
+                    <div class="a1 three-dots">
+                        <div class="a2 more-img"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="edge-body">
+                <iframe src="https://google.com/search?igu=1"></iframe>
+            </div>
+         </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="hover win" >
+                <div class="windows"></div>
+            </div>
+            <div class="footer-search">
+                <div class="search-logo"></div>
+            </div>
+            <div id="small-icon">
+
+            </div>
+            <div id="date">
+                <p id="time"></p>
+                <p id="actual-date"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="bs.js"></script>
+</body>
+</html>
