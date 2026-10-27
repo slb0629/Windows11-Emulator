@@ -11,102 +11,36 @@ body {
     position: fixed;
 }
 
-/* footer part */
-.footer{
-    background-color: rgb(18, 18, 19);
-    width: 100%;
-    height: 50px;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    padding: 0 10px;
-}
-.hover:hover{
-    background-color: rgb(53, 54, 54);
-    width: 40px;
-    height: 40px;
-    border-radius: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hover{
-    margin-left: -150px;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* position: fixed; */
-}
-div.windows{
-    width: 30px;
-    height: 30px;
-    background-image: url(../img/win11_icon.png);
-    background-size: cover;
-    /* margin-left: -150px; */
-}
-.footer-search{
-    height: 35px;
-    width: 220px;
-    background-color: aliceblue;
-    border-radius: 50px;
-    margin-left: 0 15px;
-    margin-right: 15px
-    /* position: fixed; */
-}
-.search-logo{
-    background-image: url(../img/search-icon.png);
-    height: 20px;
-    width: 20px;
-    background-size: cover;
-    margin: 7.5px 0 0 5px;
-    
-}
-
-/* desktop part */
 .apps{
     height: 100px;
     width: 100px;
-    margin: 5px 5px 5px 5px;
+    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     z-index: 1;
 }
-.apps:hover{
-    background-color: rgb(197, 210, 210);
-    opacity: .9;
-}
-.bin{
-    background-image: url(../img/bin-icon.png);
-} 
-.file{
-    background-image: url(../img/f-explorer-icon.png);
-}
-.edge{
-    background-image: url(../img/edge-icon.png);
-}
-
+.apps:hover,
 .apps:active{
     background-color: rgb(197, 210, 210);
     opacity: .9;
 }
+.bin{ background-image: url(../img/bin-icon.png); }
+.file{ background-image: url(../img/f-explorer-icon.png); }
+.edge{ background-image: url(../img/edge-icon.png); }
+
 .icon{
     width: 60px;
     height: 60px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .name{
     text-align: center;
     margin-top: 10px;
 }
-/* windows pop-up */
+
 .whole{
     position: relative;
 }
@@ -114,29 +48,10 @@ div.windows{
     background-color: rgb(2, 6, 33);
     width: 35pc;
     height: 38.5pc;
-    margin-bottom: 10pc;
     position: absolute;
     z-index: 2;
-    margin-bottom: 15pc;
     top: 18px;
     left: 30pc;
     border-radius: 10px;
     display: none;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    /* opacity: 0;
-    transform: scale(0.9); */
-}
-.pop.active{
-    display: block;
-    opacity: 1;
-    transform: scale(1);
-}
-
-
-
-/* DATE AND TIME */
-
-#date {
-    color: #ccc;
-    
 }
