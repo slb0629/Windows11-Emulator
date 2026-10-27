@@ -1,0 +1,81 @@
+.footer{
+    background-color: rgb(18, 18, 19);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.hover{
+    margin-left: -150px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hover:hover{
+    background-color: rgb(53, 54, 54);
+    border-radius: 2px;
+}
+
+div.windows{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/win11_icon.png);
+    background-size: cover;
+}
+
+.footer-search{
+    height: 35px;
+    width: 220px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin: 0 15px;
+}
+.search-logo{
+    background-image: url(../img/search-icon.png);
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    margin: 7.5px 0 0 5px;
+}
+
+#small-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.edge-icon{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/edge-icon.png);
+    background-size: cover;
+}
+.edge-footer-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 1px;
+}
+.edge-footer-icon:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#date{
+    position: absolute;
+    right: 15px;
+    color: #ccc;
+    font-size: 12px;
+    text-align: right;
+}
